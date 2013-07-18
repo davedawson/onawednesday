@@ -1,0 +1,26 @@
+$columnWidth: 84px;
+$columns: 12;
+$contentWidth: $columnWidth * $columns;
+$bodyFontSize: 16px;
+
+$type-serif: "skolar", Georgia, times, serif;
+$type-sans: 'Whitney A', 'Whitney B', Helvetica, sans-serif;
+
+// colors
+$color-pink: #ff5757;
+$color-green: #4da756;
+$color-white: #fff;
+$color-black: #000;
+$color-bg: 	  #fbfbf7;
+$color-text:  #4a4638;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin baseTransition($property: all) {
+  @include transition-property($property);
+  @include transition-duration(0.5s);
+}

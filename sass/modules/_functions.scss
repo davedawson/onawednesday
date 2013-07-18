@@ -1,0 +1,7 @@
+@function em( $value ) {
+    @return ( ($value * 1px) / $bodyFontSize * 1em );
+}
+
+@function columns( $numColumns ) {
+    @return ( ($numColumns / $columns) * $contentWidth );
+}
