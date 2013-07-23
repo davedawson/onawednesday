@@ -2,7 +2,7 @@ body {
 	// background-color: $color-bg;
 	background-color: $color-white;
 	color: $color-black;
-	font-family: $type-sans;
+	font-family: $type-serif;
 }
 img {
 	max-width: 100%;
@@ -22,7 +22,7 @@ img {
 	max-width: 1400px;
 	background: $color-bg;
 	padding: 30px 0;
-	border-bottom: 1px solid darken($color-bg, 10%);
+	// border-bottom: 1px solid darken($color-bg, 10%);
 	@include box-sizing(border-box);
 	@include respond-to(mobile) {
 		padding: 15px 0;
@@ -95,7 +95,7 @@ img {
 		padding: 15px 3%;
 	}
 	.question {
-		font-family: $type-sans;
+		font-family: $type-serif;
 		font-weight: 700;
 		margin-top: 20px;
 		color: $color-black;

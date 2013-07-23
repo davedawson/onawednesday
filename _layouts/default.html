@@ -17,19 +17,19 @@
         <meta name="viewport" content="width=device-width">
 
     </head>
-    <body>
+    <body id="{{ page.page_id }}">
 
         <div class="container">
 	        <section class="header">
 	          <h1><a href="/">{{ site.name }}</a></h1>
               <p>Short interviews with humans. On Wednesdays. <a href="/purpose">Read why &rarr;</a></p>
 	        </section>
-          <section class="content base">
+          <section class="content base clearfix">
             {{ content }}
           </section>
         </div> <!-- /container -->
     <footer>
-        <p>Made with love in New York City by <a href="http://www.iamdavedawson.com">Dave Dawson</a> &amp; <a href="http://bekkapalmer.com/">Bekka Palmer</a>.</p>
+        <p>Made in New York City by <a href="http://www.iamdavedawson.com">Dave Dawson</a> &amp; <a href="http://bekkapalmer.com/">Bekka Palmer</a>.</p>
         <p><a href="/feed.xml"><span class="ss-icon">&#xE310;</span> RSS</a></p>
     </footer>
     </body>

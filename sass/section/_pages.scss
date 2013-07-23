@@ -1,0 +1,25 @@
+#purpose {
+	.intro {
+		font-size: 32px;
+		line-height: 40px;
+		font-family: $type-serif;
+		margin-bottom: 30px;
+		@include respond-to(mobile) {
+			font-size: 24px;
+			line-height: 30px;
+			margin-bottom: 15px;
+		}
+	}
+	.half {
+		width: 48%;
+		float: left;
+		margin-right: 4%;
+		@include respond-to(mobile) {
+			width: 100%;
+			margin-right: 0;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

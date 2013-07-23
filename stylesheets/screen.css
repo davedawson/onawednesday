@@ -510,7 +510,7 @@ html:hover .ss-icon {
 body {
   background-color: white;
   color: black;
-  font-family: "Whitney A", "Whitney B", Helvetica, sans-serif;
+  font-family: "skolar", Georgia, times, serif;
 }
 
 /* line 7, ../sass/section/_common.scss */
@@ -544,7 +544,6 @@ img {
   max-width: 1400px;
   background: #f6f6f6;
   padding: 30px 0;
-  border-bottom: 1px solid #dddddd;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -671,7 +670,7 @@ img {
 }
 /* line 97, ../sass/section/_common.scss */
 .interview .question {
-  font-family: "Whitney A", "Whitney B", Helvetica, sans-serif;
+  font-family: "skolar", Georgia, times, serif;
   font-weight: 700;
   margin-top: 20px;
   color: black;
@@ -724,15 +723,16 @@ hr {
 /* line 9, ../sass/section/_header.scss */
 .header h1 {
   font-size: 14px;
+  font-family: "Whitney A", "Whitney B", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.35em;
   font-weight: 500;
 }
-/* line 14, ../sass/section/_header.scss */
+/* line 15, ../sass/section/_header.scss */
 .header h1 a {
   color: black;
 }
-/* line 18, ../sass/section/_header.scss */
+/* line 19, ../sass/section/_header.scss */
 .header p {
   font-family: "skolar", Georgia, times, serif;
   font-style: italic;
@@ -743,23 +743,58 @@ hr {
 
 /* line 1, ../sass/section/_footer.scss */
 footer {
+  background-color: rgba(0, 0, 0, 0.02);
   margin-top: 100px;
   padding: 50px 5%;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
-/* line 5, ../sass/section/_footer.scss */
+/* line 6, ../sass/section/_footer.scss */
 footer p {
+  font-family: "Whitney A", "Whitney B", Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 9, ../sass/section/_footer.scss */
+/* line 11, ../sass/section/_footer.scss */
 footer a {
   text-decoration: none;
 }
-/* line 12, ../sass/section/_footer.scss */
+/* line 14, ../sass/section/_footer.scss */
 footer span {
   font-size: 0.7em;
   margin-right: 5px;
+}
+
+/* line 2, ../sass/section/_pages.scss */
+#purpose .intro {
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "skolar", Georgia, times, serif;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 568px) {
+  /* line 2, ../sass/section/_pages.scss */
+  #purpose .intro {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+}
+/* line 13, ../sass/section/_pages.scss */
+#purpose .half {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+@media only screen and (max-width: 568px) {
+  /* line 13, ../sass/section/_pages.scss */
+  #purpose .half {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* line 21, ../sass/section/_pages.scss */
+#purpose .half:last-child {
+  margin-right: 0;
 }
 
 /* line 1, ../sass/_base.scss */
@@ -781,7 +816,7 @@ a:hover {
 /* line 29, ../sass/_base.scss */
 .base p {
   color: #4a4638;
-  font-family: "skolar", Georgia, times, serif;
+  font-family: "Whitney A", "Whitney B", Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
