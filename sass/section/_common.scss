@@ -27,44 +27,48 @@ img {
 	@include respond-to(mobile) {
 		padding: 15px 0;
 	}
-	h2 {
-		font-size: 22px;
-		font-weight: 700;
-		display: block;
+	.wrap {
 		width: 60%;
 		padding: 0;
 		margin: 0 auto;
 		max-width: 760px;
-		@include baseTransition;
-		@include box-sizing(border-box);
 		@include respond-to(tablet) {
 			width: 85%;
 			padding: 0 5%;
-			font-size: 18px;
 		}
 		@include respond-to(mobile) {
-			font-size: 20px;
 			width: 100%;
 			padding: 0 3%;
 		}
+	}
+	h2 {
+		font-size: 36px;
+		font-weight: 700;
+		display: block;
+		float: left;
+		font-family: $type-serif;
+		@include baseTransition;
+		@include box-sizing(border-box);
+	}
+	.meta {
+		float: right;
+		text-align: left;
+		p {
+			font-family: $type-sans;
+			font-size: 16px;
+			font-weight: 500;
+			margin: 0;
+			line-height: 20px;
+			color: transparentize($color-text, 0.4);
+		}
 		span {
-			color: transparentize($color-text, 0.7);
-			margin: 0 2%;
-			font-family: $type-serif;
-			font-weight: 300;
-			@include respond-to(mobile) {
-				display: none;
-			}
+			margin-right: 5px;
+			color: transparentize($color-text, 0.3);
+			font-size: 0.7em
 		}
 	}
 	.date-time {
-		display: inline;
-		text-align: center;
-		font-style: italic;
-		color: transparentize($color-text, 0.4);
-		// font-size: 14px;
-		font-family: $type-serif;
-		font-weight: 300;
+		margin-top: 5px;
 		@include baseTransition;
 		@include respond-to(mobile) {
 			font-size: 14px;
@@ -117,4 +121,9 @@ hr {
 	border: 0;
 	margin: 50px 0;
 	float: left;
+}
+
+.main {
+	max-width: 760px;
+	margin: 0 auto;
 }
