@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>On a Wednesday - Articles</title>
+		<description></description>
+		<link></link>
+		<atom:link href="/feed.articles.xml" rel="self" type="application/rss+xml" />
+		
+			
+			<item>
+				<title>Robert</title>
+				<description>&lt;p class='question'&gt;What are you doing today?&lt;/p&gt;&lt;p&gt;I’m on my lunch break right now. I work in this building over here. &lt;/p&gt;&lt;p class='question'&gt;Do you enjoy it?&lt;/p&gt;&lt;p&gt;No. &lt;/p&gt;&lt;p class='question'&gt;What’s your favorite part of the day?&lt;/p&gt;&lt;p&gt;Five minutes before 4pm. [What happens at 4pm?] Work ends and I get to go home.&lt;/p&gt;&lt;p class='question'&gt;What are you doing tomorrow?&lt;/p&gt;&lt;p&gt;Same exact thing. It’s like that movie, Groundhog Day, everything is the same, every day. &lt;/p&gt;</description>
+				<pubDate>12:55pm on Wednesday, July 17</pubDate>
+				<link>/with/robert</link>
+				<guid isPermaLink="true">/with/robert</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Richard</title>
+				<description>&lt;p class='question'&gt;What are you doing today?&lt;/p&gt;&lt;p&gt;I'm waiting for my wife who has a 12:30 appointment in this building over there. Then we're going to go home we’ll cook some dinner.&lt;/p&gt;&lt;p class='question'&gt;What time did you wake up?&lt;/p&gt;&lt;p&gt;Oh man, I woke up at 5:30 this morning. [is that when you leave for work?] Well, that's when I head out of the house.&lt;/p&gt;&lt;p class='question'&gt;Where do you live?&lt;/p&gt;&lt;p&gt;We live out by Coney Island. We took the subway here today.&lt;/p&gt;&lt;p class='question'&gt;What is your favorite part of the day? &lt;/p&gt;&lt;p&gt;12 noon. That’s when I go to prayer at the church over on Fulton. I like it. It keeps me focused and away from the shenanigans of the city.&lt;/p&gt;</description>
+				<pubDate>1:10pm on Wednesday, July 17</pubDate>
+				<link>/with/richard</link>
+				<guid isPermaLink="true">/with/richard</guid>
+			</item>
+			
+		
+			
+			<item>
+				<title>Muhammad</title>
+				<description>&lt;p class='question'&gt;What are you doing today?&lt;/p&gt;&lt;p&gt;I’m working here. Selling hotdogs, waters, gatorades.&lt;/p&gt;&lt;p class='question'&gt;How long have you been doing this?&lt;/p&gt;&lt;p&gt;1 week. I’ve been in this country for 6 months.&lt;/p&gt;&lt;p class='question'&gt;What time did you wake up this morning?&lt;/p&gt;&lt;p&gt;I woke up at 8am. Then I took the subway here. I clean my stand, wipe it down and then my boss brings it here. I’ve been here one week, my boss was on this corner for four years.&lt;/p&gt;&lt;p class='question'&gt;Do you enjoy this?&lt;/p&gt;&lt;p&gt;I enjoy having a job. In this country people are just lucky to have a job. So I’m happy that I have this. Before, when I didn’t have a job, my head was all over the place. But now I’m focused.&lt;/p&gt;</description>
+				<pubDate>12:45pm on Wednesday, July 17</pubDate>
+				<link>/with/muhammad</link>
+				<guid isPermaLink="true">/with/muhammad</guid>
+			</item>
+			
+		
+	</channel>
+</rss>
