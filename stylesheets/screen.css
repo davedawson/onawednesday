@@ -692,8 +692,12 @@ img {
     margin: 0 0 30px;
   }
 }
+/* line 113, ../sass/section/_common.scss */
+.posts li:last-child {
+  margin: 0;
+}
 
-/* line 116, ../sass/section/_common.scss */
+/* line 119, ../sass/section/_common.scss */
 hr {
   width: 1em;
   height: 4px;
@@ -704,7 +708,7 @@ hr {
   float: left;
 }
 
-/* line 126, ../sass/section/_common.scss */
+/* line 129, ../sass/section/_common.scss */
 .main {
   max-width: 760px;
   margin: 0 auto;
@@ -769,6 +773,7 @@ footer span {
   font-size: 32px;
   line-height: 40px;
   font-family: "skolar", Georgia, times, serif;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 @media only screen and (max-width: 568px) {
@@ -779,20 +784,20 @@ footer span {
     margin-bottom: 15px;
   }
 }
-/* line 13, ../sass/section/_pages.scss */
+/* line 14, ../sass/section/_pages.scss */
 #purpose .half {
   width: 48%;
   float: left;
   margin-right: 4%;
 }
 @media only screen and (max-width: 568px) {
-  /* line 13, ../sass/section/_pages.scss */
+  /* line 14, ../sass/section/_pages.scss */
   #purpose .half {
     width: 100%;
     margin-right: 0;
   }
 }
-/* line 21, ../sass/section/_pages.scss */
+/* line 22, ../sass/section/_pages.scss */
 #purpose .half:last-child {
   margin-right: 0;
 }

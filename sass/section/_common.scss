@@ -110,6 +110,9 @@ img {
 		@include respond-to(mobile) {
 			margin: 0 0 30px;
 		}
+		&:last-child {
+			margin: 0;
+		}
 	}
 }
 

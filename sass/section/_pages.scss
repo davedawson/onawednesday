@@ -3,6 +3,7 @@
 		font-size: 32px;
 		line-height: 40px;
 		font-family: $type-serif;
+		margin-top: 50px;
 		margin-bottom: 30px;
 		@include respond-to(mobile) {
 			font-size: 24px;
