@@ -747,22 +747,23 @@ hr {
 
 /* line 1, ../sass/section/_footer.scss */
 footer {
+  clear: both;
   background-color: rgba(0, 0, 0, 0.02);
   margin-top: 100px;
   padding: 50px 5%;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
-/* line 6, ../sass/section/_footer.scss */
+/* line 7, ../sass/section/_footer.scss */
 footer p {
   font-family: "Whitney A", "Whitney B", Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 20px;
 }
-/* line 11, ../sass/section/_footer.scss */
+/* line 12, ../sass/section/_footer.scss */
 footer a {
   text-decoration: none;
 }
-/* line 14, ../sass/section/_footer.scss */
+/* line 15, ../sass/section/_footer.scss */
 footer span {
   font-size: 0.7em;
   margin-right: 5px;
