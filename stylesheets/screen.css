@@ -726,17 +726,18 @@ hr {
 }
 /* line 9, ../sass/section/_header.scss */
 .header h1 {
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Whitney A", "Whitney B", Helvetica, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.35em;
   font-weight: 500;
+  margin: 0.67em 0 0.5em;
 }
-/* line 15, ../sass/section/_header.scss */
+/* line 16, ../sass/section/_header.scss */
 .header h1 a {
   color: black;
 }
-/* line 19, ../sass/section/_header.scss */
+/* line 20, ../sass/section/_header.scss */
 .header p {
   font-family: "skolar", Georgia, times, serif;
   font-style: italic;
