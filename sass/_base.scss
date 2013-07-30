@@ -7,6 +7,9 @@ a {
 a:hover {
   border-bottom: 2px solid $color-black;
 }
+em {
+  font-style: italic;
+}
 .base {
 }
 .base h1 {
@@ -33,7 +36,7 @@ a:hover {
   font-weight: 400;
   font-size: 22px;
   line-height: 28px;
-  margin: 0 0 5px;
+  margin: 0 0 1em;
   @include respond-to(tablet) {
     font-size: 18px;
     line-height: 22px;
