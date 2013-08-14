@@ -9,7 +9,7 @@ exclude:     []
 keep_files:  ['.git','.svn']
 timezone:    nil
 
-future:      true
+future:      false
 lsi:         false
 pygments:    false
 markdown:    maruku
