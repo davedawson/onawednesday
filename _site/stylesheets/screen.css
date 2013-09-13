@@ -803,6 +803,28 @@ footer span {
 #purpose .half:last-child {
   margin-right: 0;
 }
+/* line 26, ../sass/section/_pages.scss */
+#purpose .interview {
+  padding: 0;
+}
+/* line 29, ../sass/section/_pages.scss */
+#purpose .interview .title .wrap {
+  width: 90%;
+}
+/* line 32, ../sass/section/_pages.scss */
+#purpose .interview .title p {
+  font-size: 0.9rem;
+  line-height: 1.0rem;
+}
+/* line 38, ../sass/section/_pages.scss */
+#purpose .interview h2 {
+  font-size: 26px;
+}
+/* line 41, ../sass/section/_pages.scss */
+#purpose .interview p {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
 
 /* line 1, ../sass/_base.scss */
 a {

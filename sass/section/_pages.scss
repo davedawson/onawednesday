@@ -23,4 +23,25 @@
 			margin-right: 0;
 		}
 	}
+	.interview {
+		padding: 0;
+		.title {
+			.wrap {
+				width: 90%;
+			}
+			p {
+				font-size: 0.9rem;
+				line-height: 1.0rem;
+			}
+		}
+
+		h2 {
+			font-size: 26px;
+		}
+		p {
+			font-size: 1.1rem;
+			line-height: 1.5rem;
+		}
+
+	}
 }
