@@ -37,6 +37,10 @@ em {
   font-size: 22px;
   line-height: 28px;
   margin: 0 0 1em;
+  &.note {
+    font-size: 16px;
+    line-height: 20px;
+  }
   @include respond-to(tablet) {
     font-size: 18px;
     line-height: 22px;
@@ -77,3 +81,4 @@ em {
 .base {
   a:link { -webkit-tap-highlight-color: #FF5E99; }
 }
+

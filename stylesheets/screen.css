@@ -857,6 +857,11 @@ em {
   line-height: 28px;
   margin: 0 0 1em;
 }
+/* line 40, ../sass/_base.scss */
+.base p.note {
+  font-size: 16px;
+  line-height: 20px;
+}
 @media only screen and (min-width: 569px) and (max-width: 1025px) {
   /* line 32, ../sass/_base.scss */
   .base p {
@@ -872,33 +877,33 @@ em {
   }
 }
 
-/* line 50, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 .base a {
   color: black;
   text-decoration: none;
 }
-/* line 55, ../sass/_base.scss */
+/* line 59, ../sass/_base.scss */
 .base a:hover {
   border: 0;
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 64, ../sass/_base.scss */
 .base ul, .base ol {
   margin: 0;
   color: white;
 }
 
-/* line 65, ../sass/_base.scss */
+/* line 69, ../sass/_base.scss */
 .base ul li {
   list-style-type: disc;
 }
 
-/* line 69, ../sass/_base.scss */
+/* line 73, ../sass/_base.scss */
 .base ol li {
   list-style-type: decimal;
 }
 
-/* line 78, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 .base a:link {
   -webkit-tap-highlight-color: #FF5E99;
 }
