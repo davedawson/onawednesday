@@ -746,6 +746,19 @@ hr {
   line-height: 20px;
 }
 
+/* line 28, ../sass/section/_header.scss */
+.notify {
+  background: black;
+  padding: 10px 5%;
+}
+/* line 31, ../sass/section/_header.scss */
+.notify p {
+  font-family: "Whitney A", "Whitney B", Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-align: center;
+}
+
 /* line 1, ../sass/section/_footer.scss */
 footer {
   clear: both;

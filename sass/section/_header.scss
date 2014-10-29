@@ -25,3 +25,13 @@
 		line-height: 20px;
 	}
 }
+.notify {
+	background: black;
+	padding: 10px 5%;
+	p {
+		font-family: $type-sans;
+		color: transparentize(white,0.3);
+		font-size: 14px;
+		text-align: center;
+	}
+}
