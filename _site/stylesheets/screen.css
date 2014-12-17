@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,46 +24,46 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../../.rvm/gems/ruby-1.9.3-p448/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -74,7 +74,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 22, ../sass/lib/_normalize.scss */
+/* line 11, ../sass/lib/_normalize.scss */
 article,
 aside,
 details,
@@ -93,7 +93,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 32, ../sass/lib/_normalize.scss */
+/* line 30, ../sass/lib/_normalize.scss */
 audio,
 canvas,
 video {
@@ -158,7 +158,7 @@ a:focus {
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 95, ../sass/lib/_normalize.scss */
+/* line 94, ../sass/lib/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -188,7 +188,7 @@ abbr[title] {
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 126, ../sass/lib/_normalize.scss */
+/* line 125, ../sass/lib/_normalize.scss */
 b,
 strong {
   font-weight: bold;
@@ -224,7 +224,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 164, ../sass/lib/_normalize.scss */
+/* line 161, ../sass/lib/_normalize.scss */
 code,
 kbd,
 pre,
@@ -260,7 +260,7 @@ small {
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 198, ../sass/lib/_normalize.scss */
+/* line 197, ../sass/lib/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -339,7 +339,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 278, ../sass/lib/_normalize.scss */
+/* line 275, ../sass/lib/_normalize.scss */
 button,
 input,
 select,
@@ -356,7 +356,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 290, ../sass/lib/_normalize.scss */
+/* line 289, ../sass/lib/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -368,7 +368,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 302, ../sass/lib/_normalize.scss */
+/* line 301, ../sass/lib/_normalize.scss */
 button,
 select {
   text-transform: none;
@@ -381,7 +381,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 317, ../sass/lib/_normalize.scss */
+/* line 314, ../sass/lib/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -395,7 +395,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 327, ../sass/lib/_normalize.scss */
+/* line 326, ../sass/lib/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -405,7 +405,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-/* line 337, ../sass/lib/_normalize.scss */
+/* line 336, ../sass/lib/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -433,7 +433,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 361, ../sass/lib/_normalize.scss */
+/* line 360, ../sass/lib/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -442,7 +442,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 370, ../sass/lib/_normalize.scss */
+/* line 369, ../sass/lib/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -480,14 +480,13 @@ table {
   font-weight: normal;
   font-style: normal;
 }
-
 /* This triggers a redraw in IE to Fix IE8's :before content rendering. */
 /* line 14, ../sass/lib/_type.scss */
 html:hover .ss-icon {
   -ms-zoom: 1;
 }
 
-/* line 18, ../sass/lib/_type.scss */
+/* line 16, ../sass/lib/_type.scss */
 .ss-icon, .ss-icon.ss-standard,
 .ss-icon:before, .ss-icon.ss-standard:before,
 .ss-icon.right:after, .ss-icon.ss-standard.right:after {
@@ -508,21 +507,21 @@ html:hover .ss-icon {
 
 /* line 1, ../sass/section/_common.scss */
 body {
-  background-color: white;
-  color: black;
+  background-color: #fff;
+  color: #000;
   font-family: "skolar", Georgia, times, serif;
 }
 
 /* line 7, ../sass/section/_common.scss */
 img {
   max-width: 100%;
-  -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
+  -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 
@@ -544,8 +543,8 @@ img {
   max-width: 1400px;
   background: #f6f6f6;
   padding: 30px 0;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media only screen and (max-width: 568px) {
@@ -582,16 +581,16 @@ img {
   display: block;
   float: left;
   font-family: "skolar", Georgia, times, serif;
-  -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
+  -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 /* line 53, ../sass/section/_common.scss */
@@ -617,13 +616,13 @@ img {
 /* line 70, ../sass/section/_common.scss */
 .title .date-time {
   margin-top: 5px;
-  -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
+  -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 @media only screen and (max-width: 568px) {
@@ -642,16 +641,16 @@ img {
   padding: 30px 0;
   max-width: 760px;
   margin: 0 auto;
-  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition-property: all;
   -moz-transition-property: all;
   -o-transition-property: all;
+  -webkit-transition-property: all;
   transition-property: all;
-  -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
 @media only screen and (min-width: 569px) and (max-width: 1025px) {
@@ -673,7 +672,7 @@ img {
   font-family: "skolar", Georgia, times, serif;
   font-weight: 700;
   margin: 20px 0 10px;
-  color: black;
+  color: #000;
 }
 
 /* line 105, ../sass/section/_common.scss */
@@ -702,7 +701,7 @@ hr {
   width: 1em;
   height: 4px;
   display: block;
-  background-color: black;
+  background-color: #000;
   border: 0;
   margin: 50px 0;
   float: left;
@@ -717,7 +716,7 @@ hr {
 /* line 1, ../sass/section/_header.scss */
 .header {
   text-align: center;
-  background: white;
+  background: #fff;
   padding: 30px 5%;
 }
 /* line 6, ../sass/section/_header.scss */
@@ -735,7 +734,7 @@ hr {
 }
 /* line 16, ../sass/section/_header.scss */
 .header h1 a {
-  color: black;
+  color: #000;
 }
 /* line 20, ../sass/section/_header.scss */
 .header p {
@@ -841,18 +840,18 @@ footer span {
 
 /* line 1, ../sass/_base.scss */
 a {
-  color: black;
+  color: #000;
   padding-bottom: 2px;
   border-bottom: 2px solid transparent;
-  -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
   -o-transition: border-color 0.3s ease-in-out;
+  -webkit-transition: border-color 0.3s ease-in-out;
   transition: border-color 0.3s ease-in-out;
 }
 
 /* line 7, ../sass/_base.scss */
 a:hover {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #000;
 }
 
 /* line 10, ../sass/_base.scss */
@@ -892,7 +891,7 @@ em {
 
 /* line 54, ../sass/_base.scss */
 .base a {
-  color: black;
+  color: #000;
   text-decoration: none;
 }
 /* line 59, ../sass/_base.scss */
@@ -903,7 +902,7 @@ em {
 /* line 64, ../sass/_base.scss */
 .base ul, .base ol {
   margin: 0;
-  color: white;
+  color: #fff;
 }
 
 /* line 69, ../sass/_base.scss */
